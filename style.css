@@ -50,7 +50,7 @@ form p {
     color: white;
     background-image: linear-gradient( to right, var(--cor4),var(--cor0));
     padding: 4px 80px;
-
+    border: 0 none;
 }
 
 .login:hover {
