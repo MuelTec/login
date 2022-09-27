@@ -29,9 +29,7 @@ h1 {
     text-align: center;
     margin-top: 80px;
     padding-top: 30px;
-    font-family: sans-serif;
     font-weight: bolder;
-    
 }
 
 input {
@@ -79,6 +77,7 @@ nav {
     padding-bottom: 30px;
     margin: 3px;
 }
+
 img {
     padding: 10px;
 }
