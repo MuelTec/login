@@ -9,8 +9,6 @@
     --cor4: #5BCCD9;
 }
 
-
-
 html,body {
     min-height: 96vh;
     background-image: linear-gradient(to top, #5B9ED9,#CB3DF2  );
@@ -19,6 +17,7 @@ html,body {
 }
 
 div {
+    width: 400px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.267);
