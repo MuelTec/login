@@ -9,8 +9,8 @@
     --cor4: #5BCCD9;
 }
 
-
 body {
+    height: 96vh;
     background-image: linear-gradient(to top, #5B9ED9,#CB3DF2  );
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,13 @@ form p {
     color: white;
     background-image: linear-gradient( to right, var(--cor4),var(--cor0));
     padding: 4px 80px;
+
 }
+
+.login:hover {
+    color: black;
+}
+
 
 .semsenha {
     text-align: right;
@@ -70,7 +76,6 @@ a {
 }
 
 aside > p {
-    font-family: sans-serif;
     font-size: 0.7em;
     text-align: center;
     padding-top: 40px;
