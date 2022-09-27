@@ -11,14 +11,19 @@
     <main>
         <div class="1">
             <h1>Entrar</h1>
-            <div class="input">
-                <p class="nome">Nome de usuário</p>
-                <input placeholder="Digite seu nome de usuário" type="" name="Nome" id="1">
-                <p class="senha">Senha</p>
-                <input placeholder="Digite sua senha" type="password" name="Senha" id="2">
-            </div>
-            <nav class="semsenha"><a href="#">Esqueceu a senha ?</a></nav>
-            <a class="login" href="#">Entrar</a>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p>
+                    <label for="ilog">Usuário</label><br>
+                    <input type="text" name="login" id="ilog" required>
+                </p>
+
+                <p>
+                    <label for="isen">Senha</label><br>
+                    <input type="password" name="senha" id="isen" required>
+                </p>
+                    <nav class="semsenha"><a href="#">Esqueceu a senha ?</a></nav>
+                <p><input class="login" type="submit" value="Entrar"></p>
+            </form>
             <aside>
                 <p>Cadastre-se usando</p>
             </aside>
