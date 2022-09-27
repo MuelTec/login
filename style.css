@@ -47,7 +47,7 @@ form p {
 .login {
     display: block;
     color: white;
-    background-image: linear-gradient(var(--cor4),var(--cor0));
+    background-image: linear-gradient( to right, var(--cor4),var(--cor0));
     padding: 4px 80px;
 }
 
